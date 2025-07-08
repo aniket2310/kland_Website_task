@@ -1,0 +1,21 @@
+<div class="bg-overlay">
+  <div class="container d-flex justify-content-center align-items-center vh-100">
+<div class="container d-flex justify-content-center align-items-center vh-100">
+  <div class="card p-4 shadow" style="width: 400px;">
+<div class="text-center mb-4"><img src="kland logo.png" alt="KLand Logo" width="150" ></div>
+      <h4 class="text-center mb-4 fs-5">ENTER YOUR EMAIL TO CONTINUE</h4>
+    <form [formGroup]="form" (ngSubmit)="onSubmit()">
+      <div class="mb-3">
+        <input formControlName="email" type="email" class="form-control" placeholder="Email">
+      </div>
+      <div class="mb-3">
+        <input formControlName="password" type="password" class="form-control" placeholder="Password">
+        <P class="text-end">Forgot Password?</P>
+      </div>
+      <button type="submit" class="btn btn-primary w-100">Login</button>
+      <p class="text-center mt-2">Didn't have an account? create account</p>
+    </form>
+  </div>
+</div>
+ </div>
+</div> 
